@@ -1,0 +1,10 @@
+22:21:19 **** Incremental Build of configuration Debug for project TaoProject ****
+make -j8 all 
+arm-none-eabi-size   TaoProject.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5620	     20	   1572	   7212	   1c2c	TaoProject.elf
+Finished building: default.size.stdout
+ 
+
+22:21:19 Build Finished. 0 errors, 0 warnings. (took 240ms)
+
