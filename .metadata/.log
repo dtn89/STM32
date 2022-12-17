@@ -317,3 +317,51 @@ org.apache.hc.client5.http.ConnectTimeoutException: Connect to https://download.
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-12-15 22:45:17.982
 !MESSAGE Indexed 'Blink_LED' (19 sources, 81 headers) in 1.54 sec: 4,259 declarations; 17,942 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+!SESSION 2022-12-16 05:41:50.976 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-16 05:41:57.736
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-16 05:41:57.835
+!MESSAGE Log4j initialized with config file D:\Programming\STM32\Basic_Course\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-16 05:42:05.728
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-12-16 21:39:59.092 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-16 21:40:13.928
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-16 21:40:14.037
+!MESSAGE Log4j initialized with config file D:\Programming\STM32\Basic_Course\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-16 21:40:22.239
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-12-17 23:01:31.713 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-17 23:01:49.514
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-17 23:01:49.619
+!MESSAGE Log4j initialized with config file D:\Programming\STM32\Basic_Course\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-17 23:01:59.400
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-17 23:13:14.029
+!MESSAGE Indexed 'PushButton' (19 sources, 81 headers) in 3.53 sec: 4,259 declarations; 17,942 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
