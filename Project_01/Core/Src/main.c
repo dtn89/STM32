@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include <stdbool.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -67,7 +68,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+  bool bitStatus = false;
+  int userCountValue = 0;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -98,8 +100,30 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-      HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-      HAL_Delay(1000);
+    bitStatus = HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin);
+    if(bitStatus == GPIO_PIN_RESET)
+    {
+        userCountValue++;
+        if(userCountValue > 255)
+        {
+            userCountValue = 1;
+        }
+    }
+    // Press button -> if userCountValue % 2 == 0 -> Turn ON LED
+
+    if((userCountValue % 2) == 0)
+    {
+        HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
+        HAL_Delay(100);
+    }
+    else
+    {
+        HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+    }
+    // HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
+
+    // HAL_Delay(1000);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
